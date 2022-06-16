@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de preservação ao meio ambiente mundial, fauna e flora, mais saúde e conscientização.">
+    <meta name="keyword" content="Preservar, preservação, mundo, meio ambiente, respiração, atmosfera, animais, plantas, cuidados, saúde, vida verde">
+    <meta name="author" content="José Eric Souza Torres">
+    <title>Preserva Mundo</title>
+    <link rel="stylesheet" href="ajuda.css">
+    <link rel="shortcut icon" href="../imagens/icon/logot_icon.png" type="image/x-icon">
+</head>
+<body>
+<main>
+
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../Imagens/logo.png" id="logo">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html"><img src="../Imagens/icon/home_icon.png" class="icon">Home</a></li>
+                <li><a href="https://www.gov.br/ibama/pt-br" target="_blank"><img src="../Imagens/icon/ibama_icon.png" class="icon">Ibama</a></li>
+                <li><a href="../Dicas/dicas.html"><img src="../Imagens/icon/lamp_icon.png" class="icon">Dicas</a></li>
+                <li><a href="../Donate/donate.html"><img src="../Imagens/icon/donate_icon.png" class="icon">Doações</a></li>
+                <li><a href="../AM/am.html"><img src="../Imagens/icon/pata_icon.png" class="icon">Animal Do Mês</a></li>
+                <li><a href="../PM/pm.html"><img src="../Imagens/icon/folha_icon.png" class="icon">Planta Do Mês</a></li>
+                <li><a href="#"><img src="../Imagens/icon/ajuda_icon.png" class="icon">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <audio controls loop>
+        <source src="../CSS/Audio/Animed.mp3" type="audio/ogg">
+        <source src="../CSS/Audio/Animed.mp3" type="audio/mpeg">
+        Seu navegador não suporta este tipo de áudio.
+
+    </audio>
+
+    <section id="conteudo">
+        <div class="container">
+            <h1>&#128227 ENTRE EM CONTATO &#128227</h1>
+
+            <form action="" id="formulario">
+                <fieldset>
+                    <legend>&#129299 Entre em contato com um especialista &#129299</legend>
+                    <div>
+                        <label for="nome" class="xx">Nome</label>
+                        <input type="text" placeholder="Digite seu nome aqui" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="email" class="xx">E-mail</label>
+                        <input type="mail" placeholder="Insira seu email" name="email" id="email" required>
+                    </div>
+                    <div class="bor">
+                        <label for="">Eu sou:</label>
+                        <input type="radio" name="tipo" id="tipo_ati"><label id="aln" for="tipo_aluno">Ativista</label>
+                        <input type="radio" name="tipo" id="tipo_ap"><label for="tipo_aluno">Aprendiz</label>
+                        <input type="radio" name="tipo" id="tipo_bio"><label for="tipo_aluno">Biológo</label>
+                        <input type="radio" name="tipo" id="tipo_prof"><label for="tipo_aluno">Professor</label>
+                        <input type="radio" name="tipo" id="tipo_vet"><label for="tipo_aluno">Veterinário</label>
+                    </div>
+                    <div>
+                        <label for="curso" class="xx">Área de pesquisa:</label>
+                        <select name="curso" id="curso" required>
+                            <option value="fau">Fauna</option>
+                            <option value="flo">Flora</option>
+                            <option value="soc">Sociedade</option>
+                            <option value="uni">Universo</option>
+                        </select>
+                    </div>
+                    <div class="bor">
+                        <label for="interesse">Quem te recomendou este site?</label>
+
+                        <input type="checkbox" name="fried" id="friend">
+                        <label for="friend">Amigos</label>
+                        <input type="checkbox" name="prof" id="prof">
+                        <label for="prof">Professores</label>
+                        <input type="checkbox" name="prop" id="prop">
+                        <label for="prop">Propagandas</label>
+                        <input type="checkbox" name="emp" id="emp">
+                        <label for="emp">Empresa</label>
+                    </div>
+
+                    <div>
+                        <label id="msg" for="mensagem">Mensagem</label>
+                        <textarea placeholder="Insira suas dúvidas, agradecimentos ou sugestões." name="mensagem" id="mensagem" cols="60" rows="20"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" id="but" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="rodape">
+        <address>
+            <p>Site Desenvolvido Na Disciplina Introdução a Tecnologia Web</p>
+            <p>Aluno: José Eric Souza Torres</p>
+            <p>1º Período</p>
+            <p>Instituição: UniRios PA</p>
+            <p>Curso: Sistemas De Informação</p>
+        </address>
+    </footer>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	box-sizing: border-box;
+}
+
+:root{
+    --color-1: rgb(19, 243, 157);
+    --color-2: rgb(51, 180, 126);
+}
+
+body{
+	background-image: url(../Imagens/BACKGROUND/nature.jpg);
+	background-repeat: no-repeat; 
+    background-position: top center;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to right, rgb(50, 238, 81), rgb(53, 238, 161), rgb(104, 241, 230), rgb(80, 223, 187), rgb(114, 236, 220), rgb(129, 210, 221), rgb(171, 202, 241));
+    top: 0;
+    z-index: 2;
+}
+
+#cabecalho #logo{
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+}
+
+#cabecalho #menu {
+	background-color: var(--color-1);
+	text-align: center;
+}
+
+#cabecalho #menu li {
+	display: inline-block;
+	position: relative;
+}
+
+#cabecalho #menu li ul {
+	background-color: var(--color-1);
+	width: 100%;
+	display: none;
+	/* Deixar o submenu invisível */
+	position: absolute;
+}
+
+#cabecalho #menu li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	transition: all 0.3s linear;
+}
+
+#cabecalho #menu li a::before {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+#cabecalho #menu li a:hover{
+	background-color: var(--color-2);
+}
+
+.icon{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 3px;
+	right: 10%;
+}
+
+audio{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	outline: none;
+}
+
+#d1{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.space{
+	margin-bottom: 40px;
+}
+
+#divuno{
+	display: block;
+	max-width: 800px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	background-color: rgb(45, 247, 247);
+	padding-bottom: 20px;
+	border: 8px inset rgb(68, 155, 170);
+}
+
+#divuno h1{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 60px;
+	color: rgb(49, 45, 148) ;
+	text-shadow: 5px 5px 10px rgb(33, 29, 252);
+	text-align: center;
+}
+
+#divuno img{
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 40px;
+}
+
+#divuno p{
+	color: rgb(39, 57, 224);
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#divuno p strong{
+	color: rgb(29, 27, 99) ;
+}
+
+#divuno #psec{
+	font-size: 18px;
+	color: rgb(74, 60, 202);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#divuno #psec a{
+	text-decoration: none;
+	color: rgb(39, 57, 224);
+	border-left: 5px solid rgb(24, 5, 77);
+}
+
+#divuno #ptree{
+	font-size: 10px;
+}
+
+#divuno #ptree a{
+	text-decoration: none;
+	color:  rgb(39, 57, 224);
+	border-left: 2px solid rgb(24, 5, 77);
+}
+
+#divtwo{
+	display: block;
+	max-width: 800px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	background-color: rgb(250, 151, 21);
+	padding-bottom: 20px;
+	border: 8px inset rgb(240, 96, 70);
+}
+
+#divtwo #tt1{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 50px;
+	color: rgb(234, 233, 255) ;
+	text-shadow: 5px 5px 10px rgb(58, 56, 223);
+	text-align: center;
+}
+
+#divtwo img{
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 40px;
+}
+
+#divtwo p{
+	color: rgb(234, 233, 255);
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#divtwo #t1{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#divtwo #t1 a{
+	text-decoration: none;
+	color: rgb(58, 56, 223);
+}
+
+#divtwo #aip{
+	display: block;
+	text-decoration: none;
+	color: rgb(58, 56, 223);
+	padding-top: 10px;
+}
+
+#divtreer{
+	display: block;
+	max-width: 800px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	background-color: rgb(148, 48, 44);
+	padding-bottom: 20px;
+	border: 8px inset rgb(252, 42, 5);
+}
+
+#divtreer #titler{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 50px;
+	color: rgb(255, 255, 255) ;
+	text-shadow: 5px 5px 10px rgb(216, 26, 13);
+	text-align: center;
+}
+
+#divtreer #imp{
+	width: 400px;
+	height: 280px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 40px;
+}
+
+#divtreer p{
+	color: rgb(252, 252, 252);
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#divtreer p strong{
+	color: rgb(245, 39, 39);
+}
+
+#divtreer #decor{
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#divtreer h2{
+	text-align: center;
+	margin-bottom: 30px;
+	color: #FFF;
+	border: 5px dotted #FFF;
+	padding: 5px;
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(90, 10, 10);
+}
+
+#divtreer h2:hover{
+	background-color: rgb(32, 8, 8);
+}
+
+#divtreer #reder{
+	display: block;
+	font-size: 18px;
+	padding-top: 30px;
+}
+
+#divtreer .icn{
+	display: inline-flex;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: 5px;
+}
+
+#divtreer a{
+	font-size: 10px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+#rodape{
+	background-color: var(--color-1);
+	padding: 30px;
+	margin-top: 70px;
+}
+
+#rodape address{
+	font-style: italic;
+	text-align: center;
+	font-size: 12px;
+}
+
+#rodape address p{
+	display: block;
+	margin-top: 5px;
+}

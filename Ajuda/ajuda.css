@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	box-sizing: border-box;
+}
+
+:root{
+    --color-1: rgb(19, 243, 157);
+    --color-2: rgb(51, 180, 126);
+}
+
+body{
+	background-image: url(../Imagens/BACKGROUND/nature.jpg);
+	background-repeat: no-repeat; 
+    background-position: top center;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to right, rgb(50, 238, 81), rgb(53, 238, 161), rgb(104, 241, 230), rgb(80, 223, 187), rgb(114, 236, 220), rgb(129, 210, 221), rgb(171, 202, 241));
+    top: 0;
+    z-index: 2;
+}
+
+#cabecalho #logo{
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+}
+
+#cabecalho #menu {
+	background-color: var(--color-1);
+	text-align: center;
+}
+
+#cabecalho #menu li {
+	display: inline-block;
+	position: relative;
+}
+
+#cabecalho #menu li ul {
+	background-color: var(--color-1);
+	width: 100%;
+	display: none;
+	/* Deixar o submenu invisível */
+	position: absolute;
+}
+
+#cabecalho #menu li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	transition: all 0.3s linear;
+}
+
+#cabecalho #menu li a::before {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+#cabecalho #menu li a:hover{
+	background-color: var(--color-2);
+}
+
+.container{
+	max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+	max-width: 1000px;
+    margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.icon{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 3px;
+	right: 10%;
+}
+
+audio{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	outline: none;
+}
+
+h1{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #0bbef5;
+	text-shadow: 5px 5px 10px rgb(26, 48, 66);
+}
+
+#formulario fieldset{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 10px outset #0bbef5;
+	background-color: rgba(127, 255, 212, 0.432);
+}
+
+#formulario fieldset div{
+	margin-bottom: 20px;
+}
+
+#formulario fieldset div label{
+	color: rgb(27, 31, 56);
+}
+
+#formulario fieldset legend{
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 5px dotted #FFF;
+	background-color: #0bbef5;
+	color: #FFF;
+}
+
+#formulario fieldset legend:hover{
+	transform: scale(1.1);
+}
+
+#formulario input, #formulario select, #formulario textarea{
+	padding: 10px;
+	border: 1px solid #0bbef5;
+}
+
+#formulario input:focus, #formulario select:focus, #formulario textarea:focus{
+	background-color: #a6f3ed;
+}
+
+#formulario textarea{
+	display: block;
+	margin-top: 20px;
+}
+
+#formulario #but{
+	background-color: #0bbef5;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+#formulario #but:hover{
+	background-color: #34616e;
+}
+
+#formulario .xx{
+	display: block;
+	
+}
+
+#formulario #nome{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#formulario #email{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#formulario #curso{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#formulario #msg{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#formulario .bor{
+	
+	border-left: 6px solid #0bbef5;
+	background-color: #a6f3ed;
+}
+
+#formulario .bor label{
+	margin-right: 5px;
+	margin-left: 3px;
+}
+
+
+#rodape{
+	background-color: var(--color-1);
+	padding: 30px;
+	margin-top: 70px;
+}
+
+#rodape address{
+	font-style: italic;
+	text-align: center;
+	font-size: 12px;
+}
+
+#rodape address p{
+	display: block;
+	margin-top: 5px;
+}
